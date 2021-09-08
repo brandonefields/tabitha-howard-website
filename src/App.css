@@ -51,6 +51,7 @@ p {
 .home,
 .services,
 .products,
+.about,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -77,6 +78,15 @@ p {
 
 .sign-up {
   background-image: url('images/signup.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.about {
+  background-image: url();
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
